@@ -1,0 +1,2 @@
+apiVersion: catalog.cattle.io/v1
+kind: Catalog
