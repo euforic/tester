@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: ComponentX
 metadata:
     name: test-component
     description: This is a test component
