@@ -1,2 +1,2 @@
 apiVersion: tekton.dev/v1beta1
-kind: Task
+kind: Task2
