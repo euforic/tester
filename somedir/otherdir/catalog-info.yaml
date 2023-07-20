@@ -1,8 +1,18 @@
 apiVersion: backstage.io/v1alpha1
-kind: ComponentX
+kind: Service
 metadata:
     name: test-component
     description: This is a test component
+    labels: {}
+    annotations: {}
     tags:
         - test
         - component
+    links: []
+spec:
+    type: ""
+    lifecycle: ""
+    owner: ""
+    system: ""
+    dependsOn: []
+    providesApis: []
