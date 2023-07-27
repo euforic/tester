@@ -1,0 +1,18 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tester 
+  description: it works
+  annotations:
+    github.com/project-slug: euforic/tester
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - template
+    - generated
+
+spec:
+  type: 
+  lifecycle: production
+  system: 
+  owner: adl-platform
