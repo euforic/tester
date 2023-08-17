@@ -10,6 +10,6 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Greet with custom action
-        uses: euforic/tester@master
+        uses: euforic/tester@main
         with:
           user-name: "Alice"
