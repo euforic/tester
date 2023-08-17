@@ -1,0 +1,12 @@
+name: 'Greet User with Docker and Go'
+description: 'Prints "Hello {user name input}" using a Docker container with a Go application'
+inputs:
+  user-name:
+    description: 'The user name to greet'
+    required: true
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  env:
+    USERNAME_INPUT: ${{ inputs.user-name }}
