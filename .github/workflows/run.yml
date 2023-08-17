@@ -17,5 +17,3 @@ jobs:
 
       - name: Greet with custom action
         uses: euforic/tester@main
-        with:
-          user-name: "Alice"

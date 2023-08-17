@@ -11,5 +11,5 @@ COPY hello.go .
 RUN go build -o hello hello.go
 
 # Command to run the Go app
-CMD ["./hello"]
+CMD ["/app/hello"]
 
